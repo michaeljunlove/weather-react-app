@@ -14,6 +14,10 @@
 -   天气 API 来自彩云天气，注册后，需发邮件开通 API key
 -   在设计层面抽离公共组件
 
+# 踩坑
+
+-   [404](https://github.com/facebook/create-react-app/discussions/11938)
+
 # 参考文献
 
 -   [create-react-app](https://create-react-app.dev/)
