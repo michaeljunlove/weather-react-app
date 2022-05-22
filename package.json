@@ -38,7 +38,6 @@
         "workbox-streams": "^6.5.3"
     },
     "scripts": {
-        "publish": "export PUBLIC_URL=/weather-react-app && npm run build",
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
