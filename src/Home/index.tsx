@@ -21,14 +21,13 @@ function Home() {
 
     function getHourly() {
         // hourlysteps: 控制返回多少小时的数据
-        return axios.get('https://michaeljunlove.github.io/weather-react-app/hourly.json');
-        // return axios.get(`/hourly.json?hourlysteps=24`);
+        // return axios.get('https://michaeljunlove.github.io/weather-react-app/hourly.json');
+        return axios.get(`/hourly?hourlysteps=24`);
     }
     function getFutureWeek() {
         // dailysteps: 控制返回多少天的数据
-        return axios.get('https://michaeljunlove.github.io/weather-react-app/daily.json?dailysteps=7');
-
-        // return axios.get(`/daily.json?dailysteps=7`);
+        // return axios.get('https://michaeljunlove.github.io/weather-react-app/daily.json?dailysteps=7');
+        return axios.get(`/daily?dailysteps=7`);
     }
 
     const { data, loading } = useRequest(getHourly, {
