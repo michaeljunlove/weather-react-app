@@ -1,5 +1,5 @@
 // 路由
-import { useRoutes, Navigate } from 'react-router-dom';
+import { useRoutes } from 'react-router-dom';
 import { RouteObject } from 'react-router';
 import Home from '../Home';
 import Detail from '../Detail';
@@ -14,12 +14,8 @@ const routes: RouteObject[] = [
         element: <Detail />
     },
     {
-        path: '/404',
+        path: '/*',
         element: <PageNotFoud />
-    },
-    {
-        path: '*',
-        element: <Navigate replace to="/404" />
     }
 ];
 
