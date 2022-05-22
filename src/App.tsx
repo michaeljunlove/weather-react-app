@@ -1,14 +1,16 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+// 不能用BrowserRouter.https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
+import { HashRouter } from 'react-router-dom';
+
 import './App.css';
 import Routes from './Routes';
 
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <Routes />
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }
