@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/weather-react-app/static/css/main.ef89d2c2.css",
-    "main.js": "/weather-react-app/static/js/main.4d2679f9.js",
+    "main.js": "/weather-react-app/static/js/main.f93dd679.js",
     "static/js/787.af3e327a.chunk.js": "/weather-react-app/static/js/787.af3e327a.chunk.js",
-    "static/media/day_snow.png": "/weather-react-app/static/media/day_snow.aabb48958a567556dec5.png",
-    "static/media/day_wind.png": "/weather-react-app/static/media/day_wind.57f25b8c980064914599.png",
-    "static/media/day_clouds.png": "/weather-react-app/static/media/day_clouds.cae4e171cf1e1d7c73a6.png",
-    "static/media/day_rain.png": "/weather-react-app/static/media/day_rain.8e2aa376232ca9aa78f8.png",
-    "static/media/night_snow.png": "/weather-react-app/static/media/night_snow.d0d94fdc5d4d87990c96.png",
-    "static/media/day_storm.png": "/weather-react-app/static/media/day_storm.814273cc5e6cef71c7ac.png",
-    "static/media/night_storm.png": "/weather-react-app/static/media/night_storm.772927dd0fea4e931b00.png",
-    "static/media/night_wind.png": "/weather-react-app/static/media/night_wind.4615cdfff07df743de10.png",
-    "static/media/night_rain.png": "/weather-react-app/static/media/night_rain.8bdb61da1e828d5a9980.png",
     "service-worker.js": "/weather-react-app/service-worker.js",
-    "static/media/night_clouds.png": "/weather-react-app/static/media/night_clouds.72fd3820a38f0c88619d.png",
-    "static/media/night_moon.png": "/weather-react-app/static/media/night_moon.c5b79984bb93fb5f5d33.png",
-    "static/media/day_sun.png": "/weather-react-app/static/media/day_sun.8c89e2333ea951e4ea09.png",
+    "static/media/day_snow.png": "/weather-react-app/static/media/day_snow.21ff153b8820e11ba92d.png",
+    "static/media/night_snow.png": "/weather-react-app/static/media/night_snow.2d81bd2ba7bb2044f1c4.png",
+    "static/media/day_wind.png": "/weather-react-app/static/media/day_wind.b269a7986821f80ba8aa.png",
+    "static/media/day_clouds.png": "/weather-react-app/static/media/day_clouds.321865730bfcc6b3b740.png",
+    "static/media/night_storm.png": "/weather-react-app/static/media/night_storm.968d7a21b922550522b7.png",
+    "static/media/night_wind.png": "/weather-react-app/static/media/night_wind.7aaa9a182334d9050af5.png",
+    "static/media/day_rain.png": "/weather-react-app/static/media/day_rain.ec5a4a90aa5ba92e29ce.png",
+    "static/media/day_storm.png": "/weather-react-app/static/media/day_storm.26355e33b95fa4f4abe4.png",
+    "static/media/night_rain.png": "/weather-react-app/static/media/night_rain.b353cced1f15f1e61aeb.png",
+    "static/media/night_clouds.png": "/weather-react-app/static/media/night_clouds.ec3d7a9a9f99d6d178ee.png",
+    "static/media/night_moon.png": "/weather-react-app/static/media/night_moon.c6ecb403324e0ae88cd6.png",
     "static/media/logo.svg": "/weather-react-app/static/media/logo.d81894c38ff861d8940560624682e269.svg",
     "static/media/windspeed.svg": "/weather-react-app/static/media/windspeed.635a97c33f5b49ffe17228dc816eba5c.svg",
     "static/media/windspeed-detail.svg": "/weather-react-app/static/media/windspeed-detail.dcb7d119da1aaf9a0e2cea437a7de99e.svg",
@@ -27,11 +26,11 @@
     "static/media/home.svg": "/weather-react-app/static/media/home.dcc3fa9496bb4ae918efb1ebbd68835e.svg",
     "static/media/back.svg": "/weather-react-app/static/media/back.9880b0208f35a831577f26354dd1c16b.svg",
     "main.ef89d2c2.css.map": "/weather-react-app/static/css/main.ef89d2c2.css.map",
-    "main.4d2679f9.js.map": "/weather-react-app/static/js/main.4d2679f9.js.map",
+    "main.f93dd679.js.map": "/weather-react-app/static/js/main.f93dd679.js.map",
     "787.af3e327a.chunk.js.map": "/weather-react-app/static/js/787.af3e327a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef89d2c2.css",
-    "static/js/main.4d2679f9.js"
+    "static/js/main.f93dd679.js"
   ]
 }
