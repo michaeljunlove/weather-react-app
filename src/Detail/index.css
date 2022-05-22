@@ -1,0 +1,158 @@
+.detail-root {
+    position: relative;
+    overflow-x: hidden;
+}
+.detail-root .backIcon {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    /* 方便点击返回 */
+    padding: 0.5rem;
+}
+.detail-root .right-fixed-weather {
+    position: absolute;
+    top: 2rem;
+    right: 0.8rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.detail-root .location {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #332821;
+    position: absolute;
+    left: 1.1rem;
+    top: 5.2rem;
+}
+.detail-root .location > .provice::after {
+    content: ',';
+    position: absolute;
+}
+.detail-root .detail-temp {
+    display: flex;
+    position: relative;
+    left: 1.1rem;
+    line-height: 5.75rem;
+}
+.detail-root .temperature {
+    font-size: 4.8rem;
+}
+
+.detail-root .detail-temp .temperature::after {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    top: 0;
+}
+
+.detail-root .temperature-Line {
+    height: 4.35rem;
+    width: 100%;
+    position: relative;
+}
+
+.detail-root .detail-row1 {
+    height: 10rem;
+}
+
+.detail-root .detail-more {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.1rem;
+    margin: 0.5rem 0 1rem;
+}
+.detail-root .weather-label {
+    height: 1.7rem;
+    padding: 0.25rem;
+}
+.detail-root .weather-label:first-child {
+    background: rgba(101, 142, 217, 0.1);
+    color: #658ed9;
+    width: 3.9rem;
+}
+
+.detail-root .weather-label:nth-child(2) {
+    background: rgba(216, 97, 145, 0.1);
+    color: #d86191;
+    width: 4rem;
+}
+.detail-root .weather-label:nth-child(3) {
+    background: rgba(94, 79, 193, 0.1);
+    color: #5e4fc1;
+    width: 4.7rem;
+}
+.detail-root .today {
+    display: flex;
+    margin-left: 1.1rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    color: #332821;
+}
+.detail-root .hours-wrap {
+    padding: 0 0.5rem 0 0;
+}
+.detail-root .hours-wrap .swiper-wrapper {
+    display: flex;
+}
+.detail-root .hour-wrap .temperature {
+    font-size: 1.8rem;
+}
+.detail-root .hour-wrap .temperature::after {
+    font-size: 0.65rem;
+    top: 1.1rem;
+}
+.detail-root .hour-wrap .hour {
+    position: relative;
+    top: -0.5rem;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 0.85rem;
+    text-align: center;
+    color: rgba(51, 40, 33, 0.5);
+}
+.detail-root .future-week-wrap {
+    padding: 0 1rem;
+}
+.detail-root .future-week-wrap .day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: 1.4rem;
+}
+.detail-root .future-week-wrap .day img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.detail-root .future-week-wrap .week {
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    color: #332821;
+}
+
+.detail-root .max-and-min {
+    display: flex;
+}
+.detail-root .max-and-min .temperature {
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    color: #332821;
+    margin-left: 1.5rem;
+}
+.detail-root .max-and-min .temperature::after {
+    top: 0;
+}
+
+.detail-root .max-and-min .gray {
+    color: rgba(51, 40, 33, 0.5);
+}
+.detail-root .max-and-min .gray::after {
+    color: rgba(51, 40, 33, 0.5);
+}

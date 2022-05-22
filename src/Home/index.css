@@ -1,0 +1,134 @@
+.home-wrap {
+    position: relative;
+    background: linear-gradient(180deg, #e75481 -22.84%, #929cde 113.36%);
+    height: 100vh;
+}
+.left-svg-logo {
+    position: absolute;
+    top: 2.45rem;
+    left: 0.8rem;
+}
+.weather-logo {
+    position: absolute;
+    top: -3.4rem;
+    width: 6rem;
+    height: 6rem;
+}
+.location {
+    position: relative;
+    top: 3.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.detail-wrap {
+    position: absolute;
+    width: 100%;
+    padding: 0 0.85rem;
+    top: 5rem;
+    display: flex;
+    box-sizing: border-box;
+}
+.detail-wrap-left > .date {
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 0.85rem;
+    color: rgba(51, 40, 33, 0.5);
+    position: relative;
+    top: -0.5rem;
+}
+.detail-wrap-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 14px;
+}
+.detail-list {
+    position: absolute;
+    bottom: -7rem;
+    width: 8.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.detail-list > .list-wrap {
+    display: flex;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+.list-wrap img {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 1rem;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: end;
+}
+.flex-end > .cloud {
+    width: 2.5rem;
+    height: 0.8rem;
+    background: rgba(106, 117, 186, 0.5);
+    margin-top: 4px;
+}
+.home-detail {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -38%);
+    width: 11.5rem;
+    height: 12.35rem;
+    background: #fbfbfb;
+    box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-detail {
+    background: #5e4fc1;
+    border-radius: 18px;
+    width: 163px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -23px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.weather-detail > a {
+    color: #ffffff;
+    font-size: 0.7rem;
+}
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer > .menu-wrap {
+    width: 17.15rem;
+    height: 3.2rem;
+    background: #fbfbfb;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.7rem;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    width: 1.5rem;
+    align-items: center;
+    font-size: 0.6rem;
+}

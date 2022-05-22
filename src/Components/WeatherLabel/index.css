@@ -1,0 +1,15 @@
+.weather-label {
+    border-radius: 20px;
+    background: rgba(212, 66, 111, 0.5);
+    width: 3.6rem;
+    height: 0.8rem;
+    color: #ffffff;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-label > img {
+    margin-right: 5px;
+}
