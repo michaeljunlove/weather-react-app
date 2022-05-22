@@ -18,6 +18,10 @@
 
 -   [404](https://github.com/facebook/create-react-app/discussions/11938)
 
+# 部署
+
+git subtree push --prefix=build origin gh-pages
+
 # 参考文献
 
 -   [create-react-app](https://create-react-app.dev/)

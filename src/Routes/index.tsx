@@ -3,7 +3,7 @@ import { useRoutes, Navigate } from 'react-router-dom';
 import { RouteObject } from 'react-router';
 import Home from '../Home';
 import Detail from '../Detail';
-
+import PageNotFoud from '../Components/PageNotFoud';
 const routes: RouteObject[] = [
     {
         path: '/',
@@ -15,7 +15,7 @@ const routes: RouteObject[] = [
     },
     {
         path: '/404',
-        element: <div>404</div>
+        element: <PageNotFoud />
     },
     {
         path: '*',
